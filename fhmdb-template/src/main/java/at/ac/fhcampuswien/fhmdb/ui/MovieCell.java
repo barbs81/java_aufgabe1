@@ -15,6 +15,8 @@ public class MovieCell extends ListCell<Movie> {
     private final Label genre = new Label();
     private final VBox layout = new VBox(title, detail, genre);
 
+    //Comment Test
+
     @Override
     protected void updateItem(Movie movie, boolean empty) {
         super.updateItem(movie, empty);
